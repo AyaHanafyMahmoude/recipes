@@ -1,0 +1,90 @@
+
+@font-face{
+    font-family:"ArchitectsDaughter" ;
+    src: url(../webfonts/ArchitectsDaughter-Regular.ttf);
+}
+body{
+    font-family: "ArchitectsDaughter";
+}
+
+#sec_1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.w-85{
+    width: 85%;
+}
+.w-10{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+.tom{
+    width: 100%;
+   height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+.navbar-brand{
+    font-family:"ArchitectsDaughter" ;
+    font-weight: 600px;
+    font-size: 22px;
+}
+.to{
+    z-index: 234;
+}
+/* hero */
+.hero{
+    background-image: url("../images/e.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+   
+   
+}
+.grdiant{
+    background-image: url("../images/istockphoto-rrrrr-170667a.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.boo{
+    border: 2px solid yellow;
+}
+.bg-wit{
+    background-color:rgb(15, 15, 15) ;
+}
+.pop-sec{
+    background-color: rgba(15, 15, 15, 0.692);
+    display: none;
+}
+
+#img-show{
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   
+}
+.div-did{
+    
+}
+.sec-3{
+    background-image: url("../images/rt.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

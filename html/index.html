@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practice before qize</title>
+    <link rel="shortcut icon" href="../images/Moon icon (7).png" type="image/x-icon">
+    <meta name="description" content="put your description here">
+    <meta name="author" content=" aya hanafy">
+    <meta name="keywords " content=" max 10 words">
+    <meta http-equiv="content-Type" content="text/html;charset=UTF-8">
+    <meta name=" viewport" content="width=device-width ,initial-scale=1.0">
+    <link rel=" stylesheet" href="../css/all.min.css">
+    <link rel=" stylesheet" href="../css/bootstrap.min.css">
+    <link rel=" stylesheet" href="../css/style.css">
+    
+
+</head>
+
+<body>
+    <!-- start first section navpar -->
+  <section id="sec_1" class=" position-fixed start-0 end-0 to ">
+    <nav class="navbar navbar-expand-lg bg-transparent w-85 m-auto  ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="../images/Premium Vector _ Hot grill logo templates.jfif" alt="" class="w-10  rounded-circle"> Spcica</a>
+         
+          <button id="gom" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-clipboard-list text-white" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ul-a so ">
+              <li class="nav-item">
+                <a class="nav-link active ps-2 pe-2 fs-5" aria-current="page" href="#" recipe="carrot">carrot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " recipe="broccoli" href="#">broccoli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="mushrooms">mushrooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="pineapple">pineapple</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="pizza">pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="pasta">pasta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="steak">steak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2 pe-2 fs-5 " href="#" recipe="cake">cake</a>
+              </li>
+              <li class="nav-item">
+               <a href=""><i class="fab fa-facebook  p-2  d-flex align-items-center mt-1 rounded-circle fa-1x"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><i class="fab fa-instagram ms-1  p-2  d-flex align-items-center mt-1 rounded-circle fa-1x"></i></a>
+              </li>
+            
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav> 
+      
+  </section>
+   <!-- end first section navpar -->
+   <!-- start second  section navpar -->
+   <section id="second" class="hero   d-flex justify-content-start align-items-center">
+       <div class="w-50   ps-5 text-white fs-4 " >
+
+
+        <p class="pt-5">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Voluptatem culpa quibusdam tenetur adipisci itaque harum impedit labore facilis, consectetur<br> nostrum excepturi asperiores. Voluptate odio temporibus mollitia aut incidunt iste dolore.</p>
+        <button class=" bg-warning w-50 rounded-pill border-0 text-white  shadow-lg">About us</button>
+       </div>
+   </section>
+    <!-- end second  section navpar -->
+    <!-- start third  section navpar -->
+   <section class="sec-3">
+       <div class="container mt-5">
+           <div class="row gy-5 gx-2" id="rowdata">
+            
+           </div>
+       </div>
+
+   </section>
+   <!-- end third  section navpar -->
+   <section class=" w-100 vh-100 position-fixed top-0 start-0   align-items-center pop-sec ">
+       <div class=" w-50 h-75   grdiant m-auto mt-5 mb-5  d-flex align-items-center ">
+           <div id="fo" class=" tom  text-center text-white fw-bold fs-4 p-4">
+               
+           </div>
+          
+
+       </div>
+   </section>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/javacode.js"></script>
+</body>
+
+</html>
+<!-- <!DOCTYPE HTML>
+<html>
+<head>
+<style>
+.droptarget {
+  float: left; 
+  width: 100px; 
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+</head>
+<body>
+
+<p>Drag the p element back and forth between the two rectangles:</p>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+
+<p id="demo"></p>
+
+<script>
+function dragStart(event) {
+  event.dataTransfer.setData("Text", event.target.id);
+}
+
+function dragging(event) {
+  document.getElementById("demo").innerHTML = "The p element is being dragged";
+}
+
+function allowDrop(event) {
+  event.preventDefault();
+}
+
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("Text");
+  event.target.appendChild(document.getElementById(data));
+  document.getElementById("demo").innerHTML = "The p element was dropped";
+}
+</script>
+
+</body>
+</html>
+ -->
